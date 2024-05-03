@@ -28,7 +28,7 @@ st.markdown('##### Segmented Pieces')
 
 ## Placeholder Image
 parent_media_path = "media-directory"
-img_file = 'bus.jpg'
+img_file = 'Python\\Object Detection Main\\bus.jpg'
 
 ## Application States
 APPLICATION_MODE = st.sidebar.selectbox("Our Options",
@@ -143,30 +143,35 @@ if('tomato' in names_list):
     st.write("Average Price: ₹2063.33/Quintal")
     st.write("Lowest Market Price: ₹300.00/Quintal")
     st.write("Costliest Market Price: ₹27080.00/Quintal")
+    st.write("Current Market Price: ₹32/kg")
 if('carrot' in names_list):
     st.markdown('')
     st.markdown('##### Carrots')
     st.write("Average Price: ₹3938.77/Quintal")
     st.write("Lowest Market Price: ₹300.00/Quintal")
     st.write("Costliest Market Price: ₹21080.00/Quintal")
+    st.write("Current Market Price: ₹25/kg")
 if('orange' in names_list):
     st.markdown('')
     st.markdown('##### Oranges')
     st.write("Average Price: ₹6404.72/Quintal")
     st.write("Lowest Market Price: ₹1600.00/Quintal")
     st.write("Costliest Market Price: ₹13200.00/Quintal")
+    st.write("Current Market Price: ₹45/kg")
 if('apple' in names_list):
     st.markdown('')
     st.markdown('##### Apples')
     st.write("Average Price: ₹9102.95/Quintal")
     st.write("Lowest Market Price: ₹2800.00/Quintal")
     st.write("Costliest Market Price: ₹30000.00/Quintal")
+    st.write("Current Market Price: ₹100/kg")
 if('banana' in names_list):
     st.markdown('')
     st.markdown('##### Bananas')
     st.write("Average Price: ₹3085.81/Quintal")
     st.write("Lowest Market Price: ₹200.00/Quintal")
     st.write("Costliest Market Price: ₹8750.00/Quintal")
+    st.write("Current Market Price: ₹20/kg")
 
 st.markdown('')
 st.markdown('')
