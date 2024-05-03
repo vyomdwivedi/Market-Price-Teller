@@ -28,7 +28,7 @@ st.markdown('##### Segmented Pieces')
 
 ## Placeholder Image
 parent_media_path = "media-directory"
-img_file = 'Python\\Object Detection Main\\bus.jpg'
+img_file = 'bus.jpg'
 
 ## Application States
 APPLICATION_MODE = st.sidebar.selectbox("Our Options",
